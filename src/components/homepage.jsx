@@ -1,14 +1,12 @@
 import React from 'react';
 import FormField from './subcomponents/formField';
+import NavBar from './subcomponents/navBar';
 
 const Homepage = () => {
   return(
     <>
       <h2>BugTracker</h2>
-      <ul>
-        <li>Create New</li>
-        <li>View Open</li>
-      </ul>
+      <NavBar />
       <FormField />
     </>
   )
