@@ -21,6 +21,4 @@ function App() {
   );
 }
 
-console.log("App.js API Key " + process.env.REACT_APP_API_KEY)
-
 export default App;
